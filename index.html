@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>District Pay Bill</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="salary-wrapper district-page">
+    <div class="salary-header">
+      <h1>UTTARAKHAND BAHUUDESHIYA VITTA EVAM VIKAS NIGAM LIMITED</h1>
+      <h2>PAY BILL FOR MONTH OF ........., 20...</h2>
+      <h3>DISTRICT UNIT</h3>
+      <h4>BILL NUMBER - ...., DATE: .............</h4>
+    </div>
+
+    <table id="districtSalarySheet">
+      <thead>
+        <tr>
+          <th rowspan="2">SR. No.</th>
+          <th rowspan="2">EMPLOYEE NAME</th>
+          <th rowspan="2">DESIGNATION</th>
+          <th rowspan="2">GRADE PAY</th>
+          <th colspan="10">EARNINGS</th>
+          <th colspan="6">DEDUCTIONS</th>
+        </tr>
+        <tr>
+          <th>BASIC</th>
+          <th>DA 58%</th>
+          <th>HDA</th>
+          <th>MA</th>
+          <th>SA</th>
+          <th>HRA</th>
+          <th>WA</th>
+          <th>EPFA</th>
+          <th>EPSA</th>
+          <th>GROSS TOTAL</th>
+
+          <th>GIS</th>
+          <th>TDS</th>
+          <th>EPF</th>
+          <th>FPS</th>
+          <th>TOTAL DED.</th>
+          <th>NET SALARY</th>
+        </tr>
+      </thead>
+
+      <tbody id="districtSalaryBody"></tbody>
+      <tfoot id="districtSalaryFoot"></tfoot>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
